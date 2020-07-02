@@ -16,6 +16,6 @@ By default, the program finds the first element that matches your second paramat
 ```sh
 dotnet run "https://reddit.com" 'div class="_10wC0aXnrUKfdJ4Ssz-o14"'
 ```
-This will find a div with the class specified. This command returns `<a href="https://www.independent.co.uk/news/world/europe/russia-referendum-putin-rule-2036-yes-vote-a9595711.html" class="_13svhQIUZqD9PVzFcLwOKT styled-outbound-link" rel="noopener nofollow ugc" target="_blank">independent.co.uk/news/w...<i class="icon icon-outboundLink _2WV2dTLgPlEXLVEmIexAxf"></i></a>`
+This will find all content inside of a div with the class specified. This command returns `<a href="https://www.independent.co.uk/news/world/europe/russia-referendum-putin-rule-2036-yes-vote-a9595711.html" class="_13svhQIUZqD9PVzFcLwOKT styled-outbound-link" rel="noopener nofollow ugc" target="_blank">independent.co.uk/news/w...<i class="icon icon-outboundLink _2WV2dTLgPlEXLVEmIexAxf"></i></a>`
 ## Miscellaneous
 This project is a simple test of analyzing data from strings. The code will likely be edited constantly to improve efficiency.
