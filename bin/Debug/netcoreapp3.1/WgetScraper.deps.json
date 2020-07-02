@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "WgetScraper/1.0.0": {
+        "runtime": {
+          "WgetScraper.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WgetScraper/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

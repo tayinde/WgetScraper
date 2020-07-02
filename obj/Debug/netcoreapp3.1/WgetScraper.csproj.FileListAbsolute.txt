@@ -1,0 +1,11 @@
+/home/ta334/Codes/C#/WgetScraper/bin/Debug/netcoreapp3.1/WgetScraper
+/home/ta334/Codes/C#/WgetScraper/bin/Debug/netcoreapp3.1/WgetScraper.deps.json
+/home/ta334/Codes/C#/WgetScraper/bin/Debug/netcoreapp3.1/WgetScraper.runtimeconfig.json
+/home/ta334/Codes/C#/WgetScraper/bin/Debug/netcoreapp3.1/WgetScraper.runtimeconfig.dev.json
+/home/ta334/Codes/C#/WgetScraper/bin/Debug/netcoreapp3.1/WgetScraper.dll
+/home/ta334/Codes/C#/WgetScraper/bin/Debug/netcoreapp3.1/WgetScraper.pdb
+/home/ta334/Codes/C#/WgetScraper/obj/Debug/netcoreapp3.1/WgetScraper.csprojAssemblyReference.cache
+/home/ta334/Codes/C#/WgetScraper/obj/Debug/netcoreapp3.1/WgetScraper.AssemblyInfoInputs.cache
+/home/ta334/Codes/C#/WgetScraper/obj/Debug/netcoreapp3.1/WgetScraper.AssemblyInfo.cs
+/home/ta334/Codes/C#/WgetScraper/obj/Debug/netcoreapp3.1/WgetScraper.dll
+/home/ta334/Codes/C#/WgetScraper/obj/Debug/netcoreapp3.1/WgetScraper.pdb
