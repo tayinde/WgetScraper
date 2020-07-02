@@ -11,12 +11,12 @@ namespace WgetScraper
             Process execution = new Process();
             ProcessStartInfo processInfo = new ProcessStartInfo();
             processInfo.WindowStyle = ProcessWindowStyle.Hidden;
-            processInfo.FileName = "/bin/wget";
+            processInfo.FileName = "wget";
             processInfo.Arguments = "-q --output-document=WgetScraperData.html " + url;
             execution.StartInfo = processInfo;
             execution.Start();
             execution.WaitForExit();
-            string info = "";
+            string info = null;
             try
             {
                 info = File.ReadAllText("./WgetScraperData.html").Replace("    ", "").Replace("\n", "");
