@@ -6,7 +6,7 @@ To run this program, you will need the [.NET Core CLI](https://dotnet.microsoft.
 Wget can be installed easily on most UNIX systems by using their package manager to install `wget`. On Windows, you can look into [this](http://gnuwin32.sourceforge.net/packages/wget.htm) website for assistance in installing the program.
 
 ## Run Program
-In this example we will get the `title` element from Reddit:<br>
+In this example we will get the `title` element from Reddit by running this command in the root directory:<br>
 ```sh
 dotnet run "https://reddit.com" "title"
 ```
