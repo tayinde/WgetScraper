@@ -19,7 +19,10 @@ namespace WgetScraper
                 Environment.Exit(0);
             }
             if (Regex.Match(query, @"\bimg|link|hr|br|script src\w*\b").Success)
+            {
+                Console.WriteLine(html.Substring(open, openEndArrow - open));
                 Environment.Exit(0);
+            }
             int close = 0;
             for (int i = openEndArrow; i < html.Length - query.Length - 3; i++)
                 if (html.Substring(i, query.Split(' ')[0].Length + 3) != $@"</{query.Split(' ')[0]}>")
