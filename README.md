@@ -14,8 +14,8 @@ The result is `reddit: the front page of the internet`
 ***
 By default, the program finds the first element that matches your second paramater, though you can specify an element by doing for example:<br>
 ```sh
-dotnet run "https://reddit.com" 'div class="_10wC0aXnrUKfdJ4Ssz-o14"'
+dotnet run "https://reddit.com" 'div class="' --tag
 ```
-This will find all content inside of a div with the class specified. This command returns `<a href="https://www.independent.co.uk/news/world/europe/russia-referendum-putin-rule-2036-yes-vote-a9595711.html" class="_13svhQIUZqD9PVzFcLwOKT styled-outbound-link" rel="noopener nofollow ugc" target="_blank">independent.co.uk/news/w...<i class="icon icon-outboundLink _2WV2dTLgPlEXLVEmIexAxf"></i></a>`
+This will look for the tag of the first div that has an opening tab that starts the same as `<div class="`. The result is (in my case, as Reddit's page will change constantly): <br>`<div class="_1VP69d9lk-Wk9zokOaylL" style="--background:#FFFFFF;--canvas:#DAE0E6">`
 ## Miscellaneous
 This project is a simple test of analyzing data from strings. The code will likely be edited constantly to improve efficiency.
